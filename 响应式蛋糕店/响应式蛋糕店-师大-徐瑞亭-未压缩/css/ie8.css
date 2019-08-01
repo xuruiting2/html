@@ -1,0 +1,52 @@
+/*帮助主页进行ie9调整开始*/
+.menu > ul >li:nth-child(1) {
+    margin-left: 35%;
+}
+.index-blog > ul {
+    background-color: #1CBBB4;
+}
+.menu > ul .hot li {
+    width: 25%;
+    height: 300px;
+}
+.nav-green {
+    height: 60px\0;
+    width: 70%\0;
+    margin: 0px 0px 0px 30%\0;
+}
+/*帮助主页进行ie9调整结束*/
+/*帮助about页面进行ie9修改开始*/
+.contact-us .pic-two {
+    width: 40%\0;
+    float: left\0;
+}
+.contact-us .word {
+    width: 40%\0;
+    float: left\0;
+    margin-left: 150px\0;
+}
+/*帮助about页面进行ie9修改结束*/
+@media all and (max-width: 992px){
+    .nav-green {
+        margin: 0px 0px 0px 20%\0;
+    }
+    .contact-us .pic-two,.contact-us .word {
+        float: none\0;
+    }
+    .contact-us .word {
+        margin-top: 150px\0;
+        width: 80%\0;
+        margin: 150px auto 0px\0;
+    }
+}
+@media all and (max-width: 768px){
+    details {
+        display: none\0;
+    }
+    .nav-green li {
+        width: 100%\0;
+    }
+    .nav-green {
+        margin: 0px auto;
+    }
+}

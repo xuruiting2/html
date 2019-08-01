@@ -1,0 +1,334 @@
+/*今日特价开始*/
+.cheap {
+    background-color: #E8E8E8;
+}
+.cheap h1 {
+    height: 180px;
+    font-size: 3em;
+    font-weight: 800;
+    text-align: center;
+    line-height: 180px;
+}
+.cheap .cheap-wrap {
+    width: 90%;
+    margin: 0px auto;
+    overflow: hidden;
+}
+.cheap .cheap-wrap > div:nth-child(3),
+.cheap .cheap-wrap > div:nth-child(5),
+.cheap .cheap-wrap > div:nth-child(7){
+     width: 45%;
+ }
+.cheap .cheap-wrap > div:nth-child(1),
+.cheap .cheap-wrap > div:nth-child(2),
+.cheap .cheap-wrap > div:nth-child(4),
+.cheap .cheap-wrap > div:nth-child(6),
+.cheap .cheap-wrap > div:nth-child(8),
+.cheap .cheap-wrap > div:nth-child(9) {
+    width: 25%;
+}
+.cheap .cheap-wrap > div {
+    float: left;
+    height: 322px;
+    margin: 10px 5px;
+    position: relative;
+    overflow: hidden;
+}
+.cheap .cheap-wrap > div:hover .sh {
+    transform: rotateX(0deg);
+    -webkit-transform: rotateX(0deg);
+    -moz-transform: rotateX(0deg);
+    -o-transform: rotateX(0deg);
+    -ms-transform: rotateX(0deg);
+}
+
+.cheap .cheap-wrap > div .sh {
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transform-origin: 0px 0px;
+    -webkit-transform-origin: 0px 0px;
+    -moz-transform-origin: 0px 0px;
+    -ms-transform-origin: 0px 0px;
+    -o-transform-origin: 0px 0px;
+}
+.cheap .cheap-wrap > div > div {
+    height: 322px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.53);
+    width: 100%;
+    transform: rotateX(90deg);
+    -webkit-transform: rotateX(90deg);
+    -moz-transform: rotateX(90deg);
+    -o-transform: rotateX(90deg);
+    -ms-transform: rotateX(90deg);
+}
+.cheap .cheap-wrap > div > div span{
+    display: block;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #ab5c5f;
+    font-size: 2em;
+    line-height: 90px;
+    margin: 140px auto;
+    text-align: center;
+
+}
+.cheap .cheap-wrap > div img {
+    height: 322px;
+    position: absolute;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    width: 100%;
+}
+.cheap .cheap-wrap img:hover {
+        transform: scaleX(1.2) scaleY(1.2);
+        -webkit-transform: scaleX(1.2) scaleY(1.2);
+        -moz-transform: scaleX(1.2) scaleY(1.2);
+        -ms-transform: scaleX(1.2) scaleY(1.2);
+        -o-transform: scaleX(1.2) scaleY(1.2);
+}
+/*今日特价结束*/
+/*特殊菜单开始*/
+.special {
+    background-color: rgba(0, 0, 0, 0.89);
+    color: white;
+}
+.special h1 {
+    font-size: 3em;
+    line-height: 2.5em;
+    text-align: center;
+}
+.special ul li {
+    float: left;
+}
+.special > ul {
+    width: 90%;
+    margin: 0px auto;
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+    padding-bottom: 150px;
+}
+.font {
+    width: 24.8%;
+    text-align: center;
+    line-height: 80px;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.font:hover ul{
+    display: block;
+}
+.font:hover {
+    background-color: #ffa41f;
+}
+.special > ul > li ul {
+    border: solid rgba(255, 255, 255, 0.16) 1px;
+    width: 94%;
+    position: absolute;
+   padding-right: 5%;
+    top: 80px;
+    left: 0px;
+}
+.special > ul > li ul li {
+    width: 45%;
+    margin-left: 5%;
+    margin-top: 40px;
+    line-height: 0px;
+}
+.special > ul > li ul li div {
+    width: 18%;
+    padding: 7px;
+    border: solid 3px white;
+    border-radius: 50%;
+    margin-right: 30px;
+    overflow: hidden;
+}
+.special > ul > li ul li div:hover img {
+    transform: scaleX(1.2) scaleY(1.2);
+    -webkit-transform: scaleX(1.2) scaleY(1.2);
+    -moz-transform: scaleX(1.2) scaleY(1.2);
+    -ms-transform: scaleX(1.2) scaleY(1.2);
+    -o-transform: scaleX(1.2) scaleY(1.2);
+}
+.special > ul > li ul li p {
+    float: right;
+    vertical-align: middle;
+    width: 70%;
+    text-align: left;
+    position: relative;
+    margin-top: 30px;
+    font-size: 0.7em;
+    font-weight: 400;
+}
+.special > ul > li ul li p span {
+    position: absolute;
+    right: 0px;
+    color: #ffa41f;
+    font-weight: 900;
+}
+.special > ul > li ul img {
+    border-radius: 50%;
+    -moz-transition: all 2s ease;
+    -webkit-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    transition: all 2s ease;
+
+}
+.none {
+    display: none;
+}
+/*特殊菜单结束*/
+/*最新更新开始*/
+.news {
+    margin-bottom: 50px;
+}
+.news h1 {
+    height: 130px;
+    line-height: 130px;
+    font-weight: 800;
+    font-size: 2.5em;
+    text-align: center;
+}
+.news .news-wrap {
+    width: 90%;
+    margin: 0px auto;
+    overflow: hidden;
+}
+.news .news-wrap > div {
+    float: left;
+    width: 30%;
+    height: auto;
+    margin: 0px 10px;
+    position: relative;
+    overflow: hidden;
+}
+.news .news-wrap > div > div {
+    width: 100%;
+    height: 273.2px;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.30);
+    top: 0px;
+    left: 0px;
+    transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -webkit-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    transform: rotateZ(45deg) rotateY(90deg);
+    -moz-transform: rotateZ(45deg) rotateY(90deg);
+    -ms-transform: rotateZ(45deg) rotateY(90deg);
+    -o-transform: rotateZ(45deg) rotateY(90deg);
+    -webkit-transform: rotateZ(45deg) rotateY(90deg);
+    transform-origin: 0px 0px;
+    -webkit-transform-origin: 0px 0px;
+    -ms-transform-origin: 0px 0px;
+    -o-transform-origin: 0px 0px;
+    -moz-transform-origin: 0px 0px;
+}
+.news .news-wrap > div:hover .xz {
+    transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+}
+.news-wrap > div img {
+    transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -webkit-transition: all 2s ease;
+    -o-transition: all 2s ease;
+}
+.news .news-wrap > div:hover img {
+    transform: scaleX(1.2) scaleY(1.2);
+    -webkit-transform: scaleX(1.2) scaleY(1.2);
+    -moz-transform: scaleX(1.2) scaleY(1.2);
+    -ms-transform: scaleX(1.2) scaleY(1.2);
+    -o-transform: scaleX(1.2) scaleY(1.2);
+}
+/*最新开始结束*/
+@media all and (max-width: 992px){
+    .special > ul > li ul li {
+        float: none;
+        width: 90%;
+        margin: 30px auto;
+    }
+    .special > ul > li ul {
+        width: 99%;
+        margin: 0px auto;
+        padding: 1px;
+    }
+    .special > ul {
+        width:90%;
+        height:1200px;
+        margin: 0px auto;
+    }
+    .cheap .cheap-wrap > div:nth-child(3),
+    .cheap .cheap-wrap > div:nth-child(6),
+    .cheap .cheap-wrap > div:nth-child(7){
+        width: 90%;
+        margin: 10px auto;
+    }
+    .cheap .cheap-wrap > div:nth-child(1),
+    .cheap .cheap-wrap > div:nth-child(2),
+    .cheap .cheap-wrap > div:nth-child(4),
+    .cheap .cheap-wrap > div:nth-child(5),
+    .cheap .cheap-wrap > div:nth-child(8),
+    .cheap .cheap-wrap > div:nth-child(9) {
+        width: 45%;
+    }
+    .blog > ul > li {
+        height: 400px;
+        margin: 5px 3px;
+    }
+    .blog > ul > li img {
+        height: 400px;
+    }
+}
+@media all and (max-width: 768px){
+    .special > ul > li {
+        float: none;
+        width: 98%;
+        border: solid 1px rgba(255, 255, 255, 0.17);
+    }
+    .special > ul > li ul {
+        display: none;
+        position: static;
+        width: 95%;
+    }
+    .font:hover {
+        background-color: transparent;
+    }
+    .special > ul {
+        height:auto;
+        width: 95%;
+    }
+    .special > ul > li ul {
+        border: none;
+    }
+    .news .news-wrap > div {
+        float: none;
+        width: 100%;
+        height: auto;
+        margin: 10px 0px;
+    }
+    .news .news-wrap > div > div {
+        width: 100%;
+        height: 450px;
+    }
+    .menu > ul .hot li {
+        width: 100%;
+        height: auto;
+    }
+    .menu > ul >li:nth-child(1) {
+        margin-left: 22%;
+    }
+    .menu > ul >li {
+        margin:0px 1%;
+    }
+}

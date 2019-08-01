@@ -1,0 +1,240 @@
+/*灰色条部分开始*/
+.grey-block {
+    width: 99%;
+    background-color: #E9ECEF;
+    line-height: 48px;
+    padding-left: 13px;
+    font-size: 0.9em;
+    color: #1cbbb4;
+    letter-spacing: 2px;
+}
+.grey-block a {
+    color:  #333;
+    font-size: 0.9em;
+}
+/*灰色条部分结束*/
+/*
+关于的部分开始*/
+h1 {
+    width: 100%;
+    text-align: center;
+    line-height: 141px;
+    font-size: 40px;
+    letter-spacing: 2px;
+
+}
+.wel {
+    width: 70%;
+    background-color: #4078C0;
+    margin: 0px auto;
+    text-align: center;
+    padding: 0px 5%;
+}
+.wel h3 {
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 30px 0px;
+    letter-spacing: 5px;
+}
+.wel p {
+    color: rgba(221, 221, 221, 0.55);
+    line-height: 40px;
+    letter-spacing: 2px;
+    padding: 0px 0px 30px 0px;
+}
+/*
+欢迎部分结束*/
+/*中间照片层叠*/
+.contact-us {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0px auto;
+    justify-content: space-between;
+    margin-top: 70px;
+    overflow: hidden\0;
+
+}
+.contact-us .pic-two {
+    width: 43%;
+    position: relative;
+}
+.contact-us .word {
+    width: 43%;
+}
+.contact-us .word h3 {
+    line-height: 80px;
+}
+.contact-us .word p {
+    color: #989898;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+.contact-us .word a {
+    display: inline-block;
+    color: white;
+    font-size: 1em;
+    background-color: #68C249;
+    padding: 15px 40px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    transition: background-color 2s;
+}
+.contact-us .word a:hover {
+    background-color: dodgerblue;
+}
+.contact-us .pic-two .down {
+    width: 100%;
+    box-shadow: 5px 5px 5px 1px rgba(5, 5, 5, 0.62);
+}
+.contact-us .pic-two .up {
+    width: 70%;
+    position: absolute;
+    box-shadow: 5px 5px 5px 1px rgba(5, 0, 4, 0.62);
+    top: 50%;
+    left: 50%;
+}
+/*选择下拉开始*/
+.choose-wrap {
+    padding-right: 5%;
+    overflow: hidden;
+    margin-top: 100px;
+}
+.choose {
+    float: right;
+    width: 50%;
+}
+.choose ul li {
+    background-color: #6CC644;
+    border: solid 1px #6CC644;
+    border-radius: 5px;
+    margin: 7px 0px;
+}
+.choose ul li:hover p{
+    display: block;
+}
+.choose ul li span {
+    display: block;
+    line-height: 40px;
+    text-indent: 2em;
+    color: white;
+    font-weight: 700;
+}
+.choose ul li p {
+    background-color: white;
+    color: #828282;
+    line-height:35px;
+    padding: 10px 25px 10px;
+}
+.choose ul li .none {
+    display: none;
+}
+/*选择部分结束*/
+/*开始主厨部分*/
+.chief {
+    margin: 100px 0px;
+}
+.chief h1 {
+    letter-spacing: 15px;
+}
+.chief ul {
+    display: flex;
+    width: 80%;
+    margin: 0px auto;
+    overflow: hidden\0;
+}
+.chief ul li {
+    width: 24%;
+    width: 18%\0;
+    border-left: 1px solid #c5c5c5;
+    padding: 3% 3%;
+    transition: background-color 2s;
+    float: left\0;
+}
+.chief ul li:hover {
+    background-color: #104a75;
+}
+.chief ul li:hover img {
+    width: 55%;
+}
+.chief ul li:last-child {
+    border-right: 1px solid #c5c5c5;
+}
+.chief ul li span a {
+    font-family: icomoon;
+    display: inline-block;
+    color: black;
+    margin: 0px 10px;
+    padding: 5px;
+}
+.chief ul li span {
+    display: block;
+    text-align: right;
+    margin: 20px 0px;
+}
+.chief ul li span a:hover {
+    background-color: #a61d3d;
+    border-radius: 50%;
+}
+.chief ul li p:first-of-type {
+    color: #6CC644;
+    font-size: 18px;
+    margin: 15px 0px;
+}
+.chief ul li p:nth-of-type(2) {
+    font-size: 0.9em;
+    line-height: 30px;
+}
+.chief ul li img {
+    width: 50%;
+    border-radius: 50%;
+    transition: width 1s;
+}
+@media all and (max-width: 1300px) {
+    .choose {
+        float: none;
+        width: 80%;
+        margin: 0px auto;
+    }
+}
+@media all and (max-width: 768px) {
+
+}
+@media all and (max-width: 992px) {
+    .contact-us {
+        display: block;
+    }
+    .contact-us .pic-two {
+        width: 100%;
+    }
+    .contact-us .word {
+        width: 100%;
+        margin-top: 190px;
+    }
+    .contact-us .word h3 {
+        font-size: 2em;
+    }
+    .choose {
+        float: none;
+        width: 80%;
+        margin: 0px auto;
+    }
+    .chief ul li {
+        width: 43%;
+    }
+    .chief ul li:nth-of-type(2){
+        border-right: 1px solid #c1c1c1;
+    }
+    .chief ul li:nth-of-type(3),.chief ul li:nth-of-type(4){
+        border-top: 1px solid #c1c1c1;
+    }
+    .chief ul {
+        flex-wrap: wrap;
+    }
+
+    .choose {
+        float: none\0;
+        margin: 0px auto;
+    }
+}
