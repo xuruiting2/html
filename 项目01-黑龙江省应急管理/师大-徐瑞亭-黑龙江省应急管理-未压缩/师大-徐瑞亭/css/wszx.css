@@ -1,0 +1,131 @@
+/*网上咨询*/
+.middle .wszx p{
+    width:167px;
+    height:40px;
+    background-image: url("../img/index_lk.png");
+    color:white;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    position: relative;
+}
+.middle .wszx span{
+    float:right;
+    font-size:14px;
+    position: absolute;
+    bottom:0px;
+    right:0px;
+}
+.middle .wszx::after{
+    display:block;
+    content:"";
+    clear:both;
+}
+.middle .wszx{
+    border-bottom: solid 2px #0059A3;
+    position: relative;
+}
+/*下面form表单*/
+.middle .title_p1{
+    width:109px;
+    height:23px;
+    border-left:solid 4px #11578E;
+    text-align:center;
+    margin:30px 0px 0px 80px;
+}
+.middle .table1{
+    margin:45px auto;
+    width:900px;
+    height:518px;
+}
+.middle .table1 .font{
+    font-size:14px;
+    color:black;
+    width:250px;
+    text-align: right;
+}
+/*.middle table ,tr ,td{
+    border:solid aqua 1px;
+}*/
+.middle .table1 .tr1 .td2 input{
+    width:264px;
+    height:36px;
+}
+.middle .table1 .tr2 .td2 input,.middle .table1 .tr3 .td2 input,.middle .table1 .tr4 .td2 input{
+    width:707px;
+    height:36px;
+}
+.middle .table1 .tr5 .td2 textarea{
+    width:707px;
+    height:156px;
+}
+.middle .table1 .td1 span{
+    color:red;
+}
+.middle .table1 .tr7 .td2 .input1{
+    width:103px;
+    height:34px;
+}
+.middle .table1 .tr7 .td2  .input2{
+    display:inline-block;
+    width:124px;
+    height:43px;
+    background-image: url("../img/tjbj.jpg");
+    color:white;
+    border:none;
+}
+.middle .table1 .tr5 .td1 p{
+    margin-bottom:150px;
+}
+/*
+下面的表格*/
+.middle .table2{
+    margin:45px auto;
+    width:900px;
+    height:518px;
+}
+.middle .table2{
+  border-collapse: collapse;
+}
+.middle .table2 tr td{
+    border:solid 1px #EDEDED;
+}
+.middle .table2 .tr1 p{
+    border-left:solid 3px #11578E;
+    width:78px;
+    height:26px;
+    text-align: center;
+    margin-left:20px;
+}
+.middle .table2 tr .bt{
+    width:618px;
+    height:42px;
+}
+.middle .table2 .sj,.middle .table2 .ck{
+    text-align:center;
+    font-size:14px;
+}
+.middle .table2 a{
+    color:black;
+    font-size:14px;
+    display:inline-block;
+}
+.middle .table2 .td1 a{
+    padding:0px 20px;
+    background-image: url("../img/ld.jpg");
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+.middle .table2 a:hover {
+    color:#990000;
+}
+.middle .table2 .tr12 td{
+    height:82px;
+    text-align:center;
+}
+.middle .table2 .tr12 td .a1{
+    font-weight:800;
+}
+.middle .table2 .tr12 td span{
+    color:red;
+}

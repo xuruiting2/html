@@ -1,0 +1,11 @@
+#dh .head_top {
+    left:0;
+    top: 60px;
+}
+#dh .head_bottom {
+    left: 60%;
+    top: 60px;
+}
+#dh .head {
+    height: 228px;
+}
